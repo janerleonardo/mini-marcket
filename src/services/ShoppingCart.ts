@@ -1,5 +1,5 @@
-import { CartItem } from "../models/CartItem";
-import { Product } from "../models/Product";
+import { CartItem } from "../models/CartItem.js";
+import { Product } from "../models/Product.js";
 
 export class ShoppingCart {
   private items: CartItem[] = [];

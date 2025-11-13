@@ -1,6 +1,6 @@
 export interface IPaymentMethod {
   name: string
-  calculateTotal(amount: number): number;
+  calculateTotal(amount: number): string;
 
 
 }
